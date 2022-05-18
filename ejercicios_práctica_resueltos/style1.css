@@ -1,0 +1,65 @@
+header{
+  width: auto;
+  max-width: 900px;
+  display: flexbox;
+}
+  ul {
+    list-style-type: none;
+  }
+
+  .navegador > ul {
+    grid-area: auto;
+    background-color: darkgrey;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px;
+    grid-row: span;
+    align-items: baseline;
+  }
+
+.container {
+    max-width: 900px;
+    padding: 20px;
+    border-radius: 20px;
+    display: flex;
+    flex-wrap: wrap;  
+    justify-content: left;
+    gap: 10px;
+}
+  
+  .icono1 {
+    width: 250px;
+    height: 250px;
+    background-color: red;
+    border-radius: 20px;
+}
+
+  .icono2 {
+    width: 250px;
+    height: 250px;
+    background-color: green;
+    border-radius: 20px;
+}
+
+  .icono3 {
+    width: 250px;
+    height: 250px;
+    background-color: skyblue;
+    border-radius: 20px;
+}
+
+  .icono4 {
+    width: 250px;
+    height: 250px;
+    background-color: darkslateblue;
+    border-radius: 20px;
+}
+
+  .icono5 {
+    width: 250px;
+    height: 250px;
+    background-color: yellowgreen;
+    border-radius: 20px;
+}
+
